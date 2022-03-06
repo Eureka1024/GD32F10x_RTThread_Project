@@ -1,0 +1,1155 @@
+Dependencies for Project 'GD32F10xProject', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_adc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_adc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_bkp.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_bkp.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_can.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_can.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_crc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_crc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dac.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_dac.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dbg.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_dbg.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_dma.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_dma.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_enet.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_enet.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_exmc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_exmc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_exti.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_exti.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_fmc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_fmc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_fwdgt.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_fwdgt.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_gpio.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_gpio.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_i2c.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_i2c.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_misc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_misc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_pmu.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_pmu.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_rcu.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_rcu.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_rtc.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_rtc.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_sdio.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_sdio.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_spi.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_spi.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_timer.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_timer.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_usart.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_usart.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_wwdgt.c)(0x61BAAA83)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_wwdgt.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Source\system_gd32f10x.c)(0x621F841A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/system_gd32f10x.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Source\ARM\startup_gd32f10x_md.s)(0x61BAAA83)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 534" -Wa,armasm,--pd,"GD32F10X_MD SETA 1" -Wa,armasm,--pd,"USE_STDPERIPH_DRIVER SETA 1"-o ./objects/startup_gd32f10x_md.o)
+F (..\User\gd32f10x_it.c)(0x6222D73D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/gd32f10x_it.o -MD)
+I (..\User\gd32f10x_it.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+I (..\User\main.h)(0x61BAAA8E)
+I (..\User\systick.h)(0x61BAAA8E)
+F (..\User\main.c)(0x62241E8E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/main.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+I (..\User\systick.h)(0x61BAAA8E)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (..\User\main.h)(0x61BAAA8E)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\User\systick.c)(0x61BAAA8E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/systick.o -MD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+I (..\User\systick.h)(0x61BAAA8E)
+F (..\rtthread\src\clock.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/clock.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\components.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/components.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\cpu.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/cpu.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\src\idle.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/idle.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\ipc.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/ipc.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\src\irq.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/irq.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\kservice.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/kservice.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\src\mem.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/mem.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x6035A4A0)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+F (..\rtthread\src\memheap.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/memheap.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\mempool.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/mempool.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\object.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/object.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\src\scheduler.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/scheduler.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\src\slab.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/slab.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\thread.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/thread.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\src\timer.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/timer.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+F (..\rtthread\board.c)(0x62246DDA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/board.o -MD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\gd32f10x.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cm3.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmInstr.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\core_cmFunc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\CMSIS\GD\GD32F10x\Include\system_gd32f10x.h)(0x61BAAA83)
+I (..\User\gd32f10x_libopt.h)(0x61BAAA8E)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fmc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_pmu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_bkp.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rcu.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exti.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_gpio.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_crc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dma.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dbg.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_adc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_dac.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_fwdgt.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_wwdgt.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_rtc.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_timer.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_usart.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_i2c.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_spi.h)(0x61BAAA84)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_sdio.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_exmc.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_can.h)(0x61BAAA83)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_enet.h)(0x61BAAA83)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (..\GD32F10x_Firmware_Library_V2.2.2\Firmware\GD32F10x_standard_peripheral\Include\gd32f10x_misc.h)(0x61BAAA84)
+F (..\rtthread\libcpu\arm\cortex-m3\context_rvds.S)(0x60ED86CD)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION=534 -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER-o ./objects/context_rvds.o)
+F (..\rtthread\libcpu\arm\cortex-m3\cpuport.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/cpuport.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\finsh\cmd.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/cmd.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x6035A4A0)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+F (..\rtthread\finsh\finsh.h)(0x60ED86CD)()
+F (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)()
+F (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)()
+F (..\rtthread\finsh\finsh_port.c)(0x62246BC3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/finsh_port.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+F (..\rtthread\finsh\msh.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/msh.o -MD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\finsh\msh.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x6035A4A0)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+I (..\rtthread\finsh\shell.h)(0x60ED86CD)
+F (..\rtthread\finsh\msh.h)(0x60ED86CD)()
+F (..\rtthread\finsh\shell.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/shell.o -MD)
+I (..\rtthread\include\rthw.h)(0x60ED86CD)
+I (..\rtthread\include\rtthread.h)(0x60ED86CD)
+I (..\rtthread\rtconfig.h)(0x62246D3A)
+I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
+I (..\rtthread\include\rtdef.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
+I (..\rtthread\include\rtservice.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh.h)(0x60ED86CD)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x6035A4A0)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
+I (E:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
+I (..\rtthread\finsh\shell.h)(0x60ED86CD)
+I (..\rtthread\finsh\msh.h)(0x60ED86CD)
+F (..\rtthread\finsh\shell.h)(0x60ED86CD)()
