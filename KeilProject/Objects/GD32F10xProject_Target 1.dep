@@ -841,7 +841,7 @@ I (E:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6035A4A8)
 I (..\User\main.h)(0x61BAAA8E)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -884,7 +884,7 @@ F (..\rtthread\src\clock.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi 
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -894,7 +894,7 @@ F (..\rtthread\src\components.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -903,7 +903,7 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\src\cpu.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/cpu.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -914,7 +914,7 @@ F (..\rtthread\src\idle.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -923,7 +923,7 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\src\ipc.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/ipc.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -934,7 +934,7 @@ F (..\rtthread\src\irq.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -m
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -943,7 +943,7 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\src\kservice.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/kservice.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -954,7 +954,7 @@ F (..\rtthread\src\mem.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -m
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -970,7 +970,7 @@ F (..\rtthread\src\memheap.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eab
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -980,7 +980,7 @@ F (..\rtthread\src\mempool.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eab
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -989,7 +989,7 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\src\object.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/object.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -999,7 +999,7 @@ I (..\rtthread\include\rthw.h)(0x60ED86CD)
 F (..\rtthread\src\scheduler.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/scheduler.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1010,7 +1010,7 @@ F (..\rtthread\src\slab.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1020,7 +1020,7 @@ F (..\rtthread\src\thread.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1029,19 +1029,19 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\src\timer.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/timer.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
 I (..\rtthread\include\rtservice.h)(0x60ED86CD)
 I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
-F (..\rtthread\board.c)(0x62246DDA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/board.o -MD)
+F (..\rtthread\board.c)(0x62261C7C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/board.o -MD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1081,7 +1081,7 @@ F (..\rtthread\libcpu\arm\cortex-m3\context_rvds.S)(0x60ED86CD)(--target=arm-arm
 F (..\rtthread\libcpu\arm\cortex-m3\cpuport.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/cpuport.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1091,7 +1091,7 @@ F (..\rtthread\finsh\cmd.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi 
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1105,12 +1105,12 @@ I (E:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035A4A8)
 I (E:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6035A4A8)
 F (..\rtthread\finsh\finsh.h)(0x60ED86CD)()
 F (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)()
-F (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)()
+F (..\rtthread\finsh\finsh_config.h)(0x62261D01)()
 F (..\rtthread\finsh\finsh_port.c)(0x62246BC3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/finsh_port.o -MD)
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1119,7 +1119,7 @@ I (..\rtthread\finsh\finsh_api.h)(0x60ED86CD)
 F (..\rtthread\finsh\msh.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/GD32F10x_standard_peripheral/Include -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS/GD/GD32F10x/Include -I ../User -I ../GD32F10x_Firmware_Library_V2.2.2/Firmware/CMSIS -I ../rtthread/include -I ../rtthread -I ../rtthread/finsh-IE:/Keil_v5/ARM/PACK/GigaDevice/GD32F10x_DFP/2.0.2/Device/Include-IE:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="534" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ./objects/msh.o -MD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
@@ -1138,7 +1138,7 @@ F (..\rtthread\finsh\shell.c)(0x60ED86CD)(-xc -std=c99 --target=arm-arm-none-eab
 I (..\rtthread\include\rthw.h)(0x60ED86CD)
 I (..\rtthread\include\rtthread.h)(0x60ED86CD)
 I (..\rtthread\rtconfig.h)(0x62246D3A)
-I (..\rtthread\finsh\finsh_config.h)(0x60ED86CD)
+I (..\rtthread\finsh\finsh_config.h)(0x62261D01)
 I (..\rtthread\include\rtdebug.h)(0x60ED86CD)
 I (..\rtthread\include\rtdef.h)(0x60ED86CD)
 I (E:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6035A4A8)
